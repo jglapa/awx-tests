@@ -1,0 +1,5 @@
+- name: current date
+  hosts: all
+  tasks:
+    - name: current date on target
+      shell: date
